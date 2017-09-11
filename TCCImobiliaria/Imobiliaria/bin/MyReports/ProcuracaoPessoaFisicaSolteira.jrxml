@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ProcuracaoPessoaFisicaSolteira" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="503b0836-f3c6-4cec-a9d0-8f4793302ddb">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<field name="nomeProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="descricaoTipoImovel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomeCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ufCidade" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="enderecoProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="numeroProprietario" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="complementoProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bairroProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CPFProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="estadoCivilProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomeConjugeProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CPFConjugeProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="enderecoImovel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="numeroImovel" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="complementoImovel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bairroImovel" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idProcuracao" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idImovel" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="TipoImovel_idTipoImovel" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Proprietario_idProprietario" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="razaoSocialProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Cidade_idCidade" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CNPJProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipoPessoaProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="situacaoProcuracao" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dataAssinaturaProcuracao" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="clausulasProcuracao" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="RGProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="profissaoProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="RGConjugeProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="profissaoConjugeProprietario" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="110" splitType="Stretch">
+			<staticText>
+				<reportElement x="-20" y="0" width="595" height="30" uuid="e7a9c36c-8514-4d51-86cc-2c57084a75b7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="20"/>
+				</textElement>
+				<text><![CDATA[VALE VERDE EXPANSÃO IMOBILIÁRIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-20" y="30" width="595" height="20" uuid="bc861320-f87b-4297-8b99-589c73c654e9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[Bento, Peres & Cia LTDA.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-20" y="50" width="595" height="20" uuid="f9779b0a-0eb3-4852-9e76-12756a125b14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[CNPJ 80.350.944/0001-05]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-20" y="70" width="595" height="20" uuid="af3cfe91-6d2c-46cb-8ddb-2b052700bb63"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[Rua Eurilemos, 944 - Fone: (43) 3252-0403/3055-3403]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-20" y="90" width="595" height="20" uuid="87940cd3-b3db-4959-bb5c-1ced0297d59a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="12"/>
+				</textElement>
+				<text><![CDATA[CEP: 86701-230   Arapongas - PR]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="-20" y="0" width="595" height="33" uuid="16400010-0246-4ff6-b5d2-0a219fd83983"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PROCURAÇÃO AD-JUDICIAL]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="7" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="510" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="-7" width="544" height="327" uuid="587780a3-5f29-41f4-91d9-8bbc732eeb9b"/>
+				<textElement textAlignment="Justified">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pelo presente instrumento particular de procuração, Sr(a). " + $F{nomeProprietario} + ", Brasileiro, " +$F{estadoCivilProprietario}+ ", " +$F{profissaoProprietario}+ ", inscrito no CPF/CGC do MF sob o n° " +$F{CPFProprietario}+ ", portador(a) da cédula de identidade RG n° " +$F{RGProprietario}+ " residente e domiciliado na " +$F{enderecoProprietario}+ " N° " +$F{numeroProprietario}+ ", " +$F{bairroProprietario}+ ", " +$F{nomeCidade}+ " - " +$F{ufCidade}+ ", seu bastante procurador a empresa BENTO, PERES & CIA LTDA, pessoa jurídica de direito privado, estabelecida nesta cidade de Arapongas - PR, na Rua Eurilemos 944, fone 3242-0403, registrada no CRECI sobre n° J-1915, com poderes amplos, gerais e ilimitados, para em meu nome promover a locação e administração do imóvel de minha propriedade construído de " +$F{descricaoTipoImovel}+ ", localizado a " +$F{enderecoImovel}+ " " + $F{complementoImovel} + ", " +$F{bairroImovel}+ " na cidade de Arapongas, podendo para isso, dito procurador receber os aluguéis mensalmente, vistoriar o imóvel locado, receber e dar quitação, de todos e quaisquer débitos pertinentes e referente locação, bem como substabelecer, podendo dito procurador constituir Advogado."]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="30" y="410" width="110" height="40" uuid="184af33a-af2f-4eab-a4a2-ee4bc48655aa"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Arapongas - PR, "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="470" width="281" height="20" uuid="79fc425c-ffea-4ebf-809c-c7f8b8d3567c"/>
+				<textFieldExpression><![CDATA["_________________________________________________"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="490" width="281" height="20" uuid="87056837-5f83-47b9-8851-e1c7244e8087"/>
+				<textElement textAlignment="Center">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeProprietario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="11" y="320" width="543" height="80" uuid="b45a9dc8-b398-4e2b-a80c-4132c90a8d86"/>
+				<textFieldExpression><![CDATA[$F{clausulasProcuracao}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="121" y="410" width="210" height="40" uuid="bd06bb3f-931f-41b6-b80f-239f2e23b25c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd MMMM, yyyy").format($F{dataAssinaturaProcuracao}) + "."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="55" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

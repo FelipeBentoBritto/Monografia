@@ -1,0 +1,128 @@
+package TipoImovel;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.EventQueue;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.UIManager;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.SwingConstants;
+
+
+public class CadTipoImovel extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					CadTipoImovel frame = new CadTipoImovel();
+					frame.setVisible(true);
+					for (UIManager.LookAndFeelInfo lnf : UIManager.getInstalledLookAndFeels()) {
+						if ("Metal".equals(lnf.getName())) {
+							UIManager.setLookAndFeel(lnf.getClassName());
+							break;
+						}
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public CadTipoImovel() {
+		setTitle("Cadastro Tipo de Im\u00F3vel");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 500, 224);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(0, 0, 494, 196);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		JLabel lblCdigo = new JLabel("C\u00F3digo:");
+		lblCdigo.setBounds(10, 14, 46, 14);
+		panel.add(lblCdigo);
+		
+		textField = new JTextField();
+		textField.setBounds(88, 8, 86, 20);
+		panel.add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblDescrio = new JLabel("Descri\u00E7\u00E3o:");
+		lblDescrio.setBounds(10, 39, 67, 14);
+		panel.add(lblDescrio);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(88, 33, 386, 20);
+		panel.add(textField_1);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBounds(0, 145, 494, 51);
+		panel.add(panel_1);
+		panel_1.setLayout(new GridLayout(0, 4, 0, 0));
+		
+		JButton btnSalvar = new JButton("");
+		btnSalvar.setToolTipText("Salvar");
+		btnSalvar.setIcon(new ImageIcon(CadTipoImovel.class.getResource("/Imagens/Button-Add-icon.png")));
+		panel_1.add(btnSalvar);
+		
+		JButton btnCancelar = new JButton("");
+		btnCancelar.setToolTipText("Cancelar");
+		btnCancelar.setIcon(new ImageIcon(CadTipoImovel.class.getResource("/Imagens/Button-Close-icon.png")));
+		panel_1.add(btnCancelar);
+		
+		JButton btnExcluir = new JButton("");
+		btnExcluir.setToolTipText("Deletar");
+		btnExcluir.setIcon(new ImageIcon(CadTipoImovel.class.getResource("/Imagens/Button-Delete-icon.png")));
+		panel_1.add(btnExcluir);
+		
+		JButton btnSair = new JButton("");
+		btnSair.setToolTipText("Sair");
+		btnSair.setIcon(new ImageIcon(CadTipoImovel.class.getResource("/Imagens/logout-icon.png")));
+		panel_1.add(btnSair);
+		
+		Color color = new Color(240,240,241);
+		btnSalvar.setBackground(color);
+		btnSalvar.setOpaque(false);
+		btnSalvar.setFocusPainted(false);
+		
+		btnCancelar.setBackground(color);
+		btnCancelar.setOpaque(false);
+		btnCancelar.setFocusPainted(false);
+		
+		btnExcluir.setBackground(color);
+		btnExcluir.setOpaque(false);
+		btnExcluir.setFocusPainted(false);
+		
+		btnSair.setBackground(color);
+		btnSair.setOpaque(false);
+		btnSair.setFocusPainted(false);
+		
+		setResizable(false);
+	}
+
+}

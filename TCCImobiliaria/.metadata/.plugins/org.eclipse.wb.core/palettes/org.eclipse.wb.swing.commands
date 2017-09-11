@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="category_1395360989144"
+		name="Custom"
+		description="Container for custom components"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1395360989144"
+		name="Label"
+		description="Creates java.awt.Label component."
+		visible="true"
+		class="java.awt.Label"
+		category="category_1395360989144"/>
+	<addComponent
+		id="custom_1395361004794"
+		name="Grid"
+		description="Creates net.miginfocom.layout.Grid component."
+		visible="true"
+		class="net.miginfocom.layout.Grid"
+		category="category_1395360989144"/>
+</commands>

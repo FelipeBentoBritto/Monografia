@@ -1,0 +1,32 @@
+1397152560659	Delete element
+1397154954897	Delete element
+1397155293419	Delete element
+1397157895535	Delete element
+1397169935405	Encapsulate field 'razaoSocial'
+1397169978914	Encapsulate field 'endereco'
+1397169982594	Encapsulate field 'complemento'
+1397169985766	Encapsulate field 'bairro'
+1397169999920	Encapsulate field 'telefoneCelular'
+1397170005908	Encapsulate field 'telefoneFixo'
+1397170010354	Encapsulate field 'profissao'
+1397170013968	Encapsulate field 'enderecoComercial'
+1397170017297	Encapsulate field 'complementoComercial'
+1397170021779	Encapsulate field 'bairroComercial'
+1397170025823	Encapsulate field 'empresa'
+1397170028624	Encapsulate field 'telefoneComercial'
+1397170032984	Encapsulate field 'CNPJ'
+1397170037635	Encapsulate field 'RG'
+1397170041598	Encapsulate field 'CPF'
+1397170045910	Encapsulate field 'dataExpedicao'
+1397170049239	Encapsulate field 'renda'
+1397170052418	Encapsulate field 'dataNascimento'
+1397170055954	Encapsulate field 'estadoCivil'
+1397170060536	Encapsulate field 'tipoPessoa'
+1397170064092	Encapsulate field 'nomeConjuge'
+1397170068055	Encapsulate field 'CPFConjuge'
+1397170071927	Encapsulate field 'RGConjuge'
+1397170077360	Encapsulate field 'dataNascimentoConjuge'
+1397170080609	Encapsulate field 'profissaoConjuge'
+1397170084449	Encapsulate field 'regimeDeBens'
+1397173042597	Encapsulate field 'numero'
+1397239670724	Convert local variable 'Fis' to field
